@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu17/8.20.12.22/cn_daily/20201222011319/2bd1965f/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://netix.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv10/xiaomi.eu_multi_HMS2_V10.3.4.0.PEFCNXM_v10-9.zip
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Flyme
+  ZIP_NAME: MIUI
 jobs:
   build:
     runs-on: ubuntu-latest
